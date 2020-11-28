@@ -8,7 +8,7 @@ comments: true
 ---
 
 
-Hello all this is my first really bad post to see if I have my IDE set up
+Hello all this is my first really bad post to see if I have my IDE set up and it looks like I do 
 
 
 
