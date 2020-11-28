@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Default Title
+title: My first unhelped post
 status: draft
 type: post
 published: true
