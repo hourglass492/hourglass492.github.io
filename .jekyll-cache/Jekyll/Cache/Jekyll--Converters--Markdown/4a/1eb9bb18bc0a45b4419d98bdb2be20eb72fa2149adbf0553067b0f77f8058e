@@ -1,0 +1,8 @@
+I"�<p>#Introduction
+In this paper, we will go over the vulnerabilities that the vast majority of consumer vehicles possess. These vulnerabilities are due to the internal communication protocol used by vehicles called CAN which allow the many sensors and microcontrollers to communicate with the central control unit and each other inside of the vehicle. We will first cover how CAN is implemented and then go over how this implementation opens the protocol up to vulnerabilities. Then, we will cover the steps necessary to exploit these vulnerabilities.
+##The CAN Bus
+###The purpose of the CAN bus
+The CAN bus was originally developed in 1986 in order to allow vehicle manufacturers a more efficient method to control remote sensor, motor and actuator  without the costs of a full electrical harness[3]. It was then revised into the CAN 2.0A and CAN2.0B standards by Borsch in 1991 primarily in order to fix the limited address space in the original system and has become the predominant internal vehicle communication protocol [3] [4]. The protocol offers “efficiently …. real time control with a very high level of security” with “bitrates up to 1 Mbit/s” for low power systems [3]. 
+##Implementation
+###The Physical implementation of the CAN bus</p>
+:ET
