@@ -7,7 +7,7 @@ published: true
 comments: true
 date: '20/12/1 17:00 '
 ---
-
+This is a paper that I wrote for my CPR E 530 class at Iowa state. We were supposed to look into a network and try and find vulnerbilities that the network creates. I hope you enjoy it. I'm still trying to figure out how to use this web hosting system so the pictures may not be up for a while.
 
 # Introduction
 
@@ -61,6 +61,7 @@ To understand how the lower priority nodes realize they are about to cause a col
 The final thing of note on the CAN bus is that it comes in the form of CAN 2.0A and CAN 2.0B. CAN 2.0A is basically the original CAN protocol and was shown above while the main difference between A and B is an extended address field \[3]. This is done by taking advantage of the reserve bit as demonstrated below [Fig 4 [3]].
 
 ![Figure 4. \[3\]](/assets/2020-12-06-Overview-of-the-CAN-bus/fig4.png)
+
 
 
 # Attack Opportunities
