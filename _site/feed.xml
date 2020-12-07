@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T17:33:05-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">The Blog of Nicholas Krabbenhoft</title><subtitle>This is a blog for me to post my research and school projects</subtitle><entry><title type="html">Overview of the CAN bus and its vulnerabilities</title><link href="http://0.0.0.0:4000/2020/12/01/Overview-of-the-CAN-bus.html" rel="alternate" type="text/html" title="Overview of the CAN bus and its vulnerabilities" /><published>2020-12-01T17:00:00-06:00</published><updated>2020-12-01T17:00:00-06:00</updated><id>http://0.0.0.0:4000/2020/12/01/Overview-of-the-CAN-bus</id><content type="html" xml:base="http://0.0.0.0:4000/2020/12/01/Overview-of-the-CAN-bus.html">&lt;p&gt;This is a paper that I wrote for my CPR E 530 class at Iowa state. We were supposed to look into a network and try and find vulnerbilities that the network creates. I hope you enjoy it. I’m still trying to figure out how to use this web hosting system so the pictures may not be up for a while.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T18:24:47-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">The Blog of Nicholas Krabbenhoft</title><subtitle>This is a blog for me to post my research and school projects</subtitle><entry><title type="html">Overview of the CAN bus and its vulnerabilities</title><link href="http://0.0.0.0:4000/2020/12/01/Overview-of-the-CAN-bus.html" rel="alternate" type="text/html" title="Overview of the CAN bus and its vulnerabilities" /><published>2020-12-01T17:00:00-06:00</published><updated>2020-12-01T17:00:00-06:00</updated><id>http://0.0.0.0:4000/2020/12/01/Overview-of-the-CAN-bus</id><content type="html" xml:base="http://0.0.0.0:4000/2020/12/01/Overview-of-the-CAN-bus.html">&lt;p&gt;This is a paper that I wrote for my CPR E 530 class at Iowa state. We were supposed to look into a network and try and find vulnerbilities that the network creates. I hope you enjoy it. I’m still trying to figure out how to use this web hosting system so the pictures may not be up for a while.&lt;/p&gt;
 
 &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
@@ -110,7 +110,103 @@ The final thing of note on the CAN bus is that it comes in the form of CAN 2.0A 
 
 &lt;p&gt;[6] A. Greenberg, “The Jeep Hackers Are Back to Prove Car Hacking Can Get Much Worse,” Wired, 01-Aug-2016.&lt;/p&gt;
 
-&lt;p&gt;[7] A. Greenberg, “A Deep Flaw in Your Car Lets Hackers Shut Down Safety Features,” Wired, 16-Aug-2017.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a paper that I wrote for my CPR E 530 class at Iowa state. We were supposed to look into a network and try and find vulnerbilities that the network creates. I hope you enjoy it. I’m still trying to figure out how to use this web hosting system so the pictures may not be up for a while.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://0.0.0.0:4000/jekyll/update/2020/11/27/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-11-27T20:43:10-06:00</published><updated>2020-11-27T20:43:10-06:00</updated><id>http://0.0.0.0:4000/jekyll/update/2020/11/27/welcome-to-jekyll</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2020/11/27/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;[7] A. Greenberg, “A Deep Flaw in Your Car Lets Hackers Shut Down Safety Features,” Wired, 16-Aug-2017.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a paper that I wrote for my CPR E 530 class at Iowa state. We were supposed to look into a network and try and find vulnerbilities that the network creates. I hope you enjoy it. I’m still trying to figure out how to use this web hosting system so the pictures may not be up for a while.</summary></entry><entry><title type="html">DNS Tunneling</title><link href="http://0.0.0.0:4000/2020/12/01/DNS-Tunneling.html" rel="alternate" type="text/html" title="DNS Tunneling" /><published>2020-12-01T17:00:00-06:00</published><updated>2020-12-01T17:00:00-06:00</updated><id>http://0.0.0.0:4000/2020/12/01/DNS-Tunneling</id><content type="html" xml:base="http://0.0.0.0:4000/2020/12/01/DNS-Tunneling.html">&lt;p&gt;DNS Tunneling is a method to send a receive data through the Domain Name Service protocol on the internet by replacing the subdomains and IP response with information. The practical purposes of this form of tunneling included extracting data or controlling malware from within a secured and monitored environment.&lt;/p&gt;
+
+&lt;p&gt;DNS Tunneling was developed as firewalls and intrusion detection systems become more prevalent and made covert communication more difficult. One solution to this problem was to use the DNS protocol because it is rarely blocked or monitored. Of coarse, DNS is rarely blocked or monitored because it is not designed to be used for communication and is therefor assumed not to be a threat.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-dns-protocol&quot;&gt;The DNS Protocol&lt;/h1&gt;
+
+&lt;p&gt;Before going into tunneling, it is important to understand the basics of DNS.&lt;/p&gt;
+
+&lt;p&gt;The beginning of the internet used IP addresses in order to connect to remote servers. However, as the internet became more popular the general public was not willing to remember four eight bit numbers for every website or email address they wanted to use. The solution was to create a hierarchical series of servers which kept track of a mapping of human readable domain, sub domain, and machine names and their corresponding IP addresses.&lt;/p&gt;
+
+&lt;p&gt;This allows a user to type in www.google.com into their browser and, after asking a series of name servers, the browser knows to go to 172.217.6.4. This mapping functionality has given DNS the nickname of the phone book of the internet.&lt;/p&gt;
+
+&lt;p&gt;How this is done is demonstrated in figure 1. Your computer will iteratively ask its local name server, the .com name server, and then the google.com name server before it gets the IP address of the www.google.com server and can connect with it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Figure 1 Iterative DNS From Jacobson&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;client-to-server-communication&quot;&gt;Client To Server Communication&lt;/h1&gt;
+
+&lt;h2 id=&quot;implementations&quot;&gt;Implementations&lt;/h2&gt;
+
+&lt;p&gt;The client to server communication uses the DNS request packet, seen in Figure 2, by taking advantage of the sub domain feature of DNS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Figure 2 DNS Quire Packet From Jacobson&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To communicate, the remote server must be the name server for some sub domain. For example, mySite.com. The client then simply makes requests to fake servers or sub sub domains. For Example, all the following requests will go through the mySite.com Name Server:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ReallyCoolInformation.mySite.com&lt;/li&gt;
+  &lt;li&gt;SuperSecretInformation.socialSecurityNumbers.mySite.com&lt;/li&gt;
+  &lt;li&gt;UmVhbGx5Q29vbEluZm9ybWF0aW9u.mySite.com&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;On the server side, all requests could be logged which  would look something like this:&lt;/p&gt;
+
+&lt;p&gt;1: Request: ReallyCoolInformation
+2: Request: SuperSecretInformation.socialSecurityNumbers
+3: Request: UmVhbGx5Q29vbEluZm9ybWF0aW9u&lt;/p&gt;
+
+&lt;p&gt;These logs can then be parsed and all the data extracted.&lt;/p&gt;
+
+&lt;h2 id=&quot;limitations&quot;&gt;Limitations&lt;/h2&gt;
+
+&lt;p&gt;1: Each Sub Domain can only be 63 characters long.&lt;/p&gt;
+
+&lt;p&gt;2: A max of 256 characters can be sent at a time which limits data throughput.&lt;/p&gt;
+
+&lt;p&gt;3: No encryption, but that can be added later.&lt;/p&gt;
+
+&lt;h1 id=&quot;server-to-client-communication&quot;&gt;Server To Client Communication&lt;/h1&gt;
+
+&lt;h2 id=&quot;implementation&quot;&gt;Implementation&lt;/h2&gt;
+
+&lt;p&gt;Server to Client communication works in a similar way to Client to Server communication. Rather then sending the data in the sub domains, it would be placed in the IP address field, or the answers field in figure 3. This is a limited data size though because it is limited to the 32 or 64 bits for IPv4 and IPv6 addresses, but it is more then enough to send more then 4 billon unique instructions using only IPv4 addresses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Figure 3 DNS Response Packet From Jacobson&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For example, the client could could send a DNS request for whatShouldIDo.mySite.com every hour. A response to the client of 182.231.10.4 for example could mean do nothing while 182.231.10.3 could mean encrypt everything in a ransomware attack. Every other IP address could have a unique command as well.&lt;/p&gt;
+
+&lt;h1 id=&quot;limitations-1&quot;&gt;Limitations&lt;/h1&gt;
+
+&lt;p&gt;1: Extremely small data rate, 32 or 64 bits at a time without restructuring the packet.&lt;/p&gt;
+
+&lt;p&gt;2: DNS caching means every request must be unique or risk repeat of previous message.&lt;/p&gt;
+
+&lt;h1 id=&quot;detectable-characteristics--uses&quot;&gt;Detectable Characteristics &amp;amp; Uses&lt;/h1&gt;
+
+&lt;p&gt;Because DNS tunneling is such a unusual use of the DNS protocol, it produces some very unique traffc characteristics that can be divided into payload anomalies and traffic anomalies. How pronounced these characteristics will be depends on the tunnelings use and the amount of traffic being sent over it.&lt;/p&gt;
+
+&lt;h2 id=&quot;characteristics&quot;&gt;Characteristics&lt;/h2&gt;
+
+&lt;h2 id=&quot;traffic-anomalies&quot;&gt;Traffic Anomalies&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Very Heavy Traffic&lt;/li&gt;
+  &lt;li&gt;Repeating Patterns&lt;/li&gt;
+  &lt;li&gt;Odd Request Patterns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Figure 3 Tunneling detection From Varonis&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;payload-anomalies&quot;&gt;Payload Anomalies&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Large subdomain names&lt;/li&gt;
+  &lt;li&gt;Full Packets&lt;/li&gt;
+  &lt;li&gt;Odd Names&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following paragraphs are supposed to corospond to the images. I have not yet figured out how to do that yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Figure 4 Exfiltration From Varonis&quot; /&gt; &lt;img src=&quot;&quot; alt=&quot;Figure 5 C2 From Varonis&quot; /&gt; &lt;img src=&quot;&quot; alt=&quot;Figure 6 IP-Over-DNS From Varonis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Attackers can remove large amounts of information before being stopped and causes large amounts of traffic in a short amount of time.&lt;/p&gt;
+
+&lt;p&gt;Advanced malware can use tunneling to receive commands and updates and even give backdoor access which creates a repeating pattern of “calling home.”&lt;/p&gt;
+
+&lt;p&gt;In extreme cases, all internet traffic can be routed through the tunnel giving attacker complete remote access which can cause large amounts of sustained traffic&lt;/p&gt;</content><author><name></name></author><summary type="html">DNS Tunneling is a method to send a receive data through the Domain Name Service protocol on the internet by replacing the subdomains and IP response with information. The practical purposes of this form of tunneling included extracting data or controlling malware from within a secured and monitored environment.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://0.0.0.0:4000/jekyll/update/2020/11/27/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-11-27T20:43:10-06:00</published><updated>2020-11-27T20:43:10-06:00</updated><id>http://0.0.0.0:4000/jekyll/update/2020/11/27/welcome-to-jekyll</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2020/11/27/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
