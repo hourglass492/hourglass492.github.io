@@ -21,7 +21,7 @@
 title: The Blog of Nicholas Krabbenhoft
 email: nicholas.p.krabbenhoft@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a blog for me to post my research and school projects
+  This is a blog for me to post my research and school projects. I'm a 3rd year computer engineer at iowa state focusing in security.
 #baseurl: /
 url: "https://nicholaskrabbenhoft.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
