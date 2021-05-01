@@ -1,0 +1,99 @@
+I"*<p>DNS Tunneling is a method to send a receive data through the Domain Name Service protocol on the internet by replacing the subdomains and IP response with information. The practical purposes of this form of tunneling included extracting data or controlling malware from within a secured and monitored environment.</p>
+
+<p>DNS Tunneling was developed as firewalls and intrusion detection systems become more prevalent and made covert communication more difficult. One solution to this problem was to use the DNS protocol because it is rarely blocked or monitored. Of coarse, DNS is rarely blocked or monitored because it is not designed to be used for communication and is therefor assumed not to be a threat.</p>
+
+<h1 id="the-dns-protocol">The DNS Protocol</h1>
+
+<p>Before going into tunneling, it is important to understand the basics of DNS.</p>
+
+<p>The beginning of the internet used IP addresses in order to connect to remote servers. However, as the internet became more popular the general public was not willing to remember four eight bit numbers for every website or email address they wanted to use. The solution was to create a hierarchical series of servers which kept track of a mapping of human readable domain, sub domain, and machine names and their corresponding IP addresses.</p>
+
+<p>This allows a user to type in www.google.com into their browser and, after asking a series of name servers, the browser knows to go to 172.217.6.4. This mapping functionality has given DNS the nickname of the phone book of the internet.</p>
+
+<p>How this is done is demonstrated in figure 1. Your computer will iteratively ask its local name server, the .com name server, and then the google.com name server before it gets the IP address of the www.google.com server and can connect with it.</p>
+
+<p><img src="" alt="Figure 1 Iterative DNS From Jacobson" /></p>
+
+<h1 id="client-to-server-communication">Client To Server Communication</h1>
+
+<h2 id="implementations">Implementations</h2>
+
+<p>The client to server communication uses the DNS request packet, seen in Figure 2, by taking advantage of the sub domain feature of DNS.</p>
+
+<p><img src="" alt="Figure 2 DNS Quire Packet From Jacobson" /></p>
+
+<p>To communicate, the remote server must be the name server for some sub domain. For example, mySite.com. The client then simply makes requests to fake servers or sub sub domains. For Example, all the following requests will go through the mySite.com Name Server:</p>
+
+<ol>
+  <li>ReallyCoolInformation.mySite.com</li>
+  <li>SuperSecretInformation.socialSecurityNumbers.mySite.com</li>
+  <li>UmVhbGx5Q29vbEluZm9ybWF0aW9u.mySite.com</li>
+</ol>
+
+<p>On the server side, all requests could be logged which  would look something like this:</p>
+
+<p>1: Request: ReallyCoolInformation
+2: Request: SuperSecretInformation.socialSecurityNumbers
+3: Request: UmVhbGx5Q29vbEluZm9ybWF0aW9u</p>
+
+<p>These logs can then be parsed and all the data extracted.</p>
+
+<h2 id="limitations">Limitations</h2>
+
+<p>1: Each Sub Domain can only be 63 characters long.</p>
+
+<p>2: A max of 256 characters can be sent at a time which limits data throughput.</p>
+
+<p>3: No encryption, but that can be added later.</p>
+
+<h1 id="server-to-client-communication">Server To Client Communication</h1>
+
+<h2 id="implementation">Implementation</h2>
+
+<p>Server to Client communication works in a similar way to Client to Server communication. Rather then sending the data in the sub domains, it would be placed in the IP address field, or the answers field in figure 3. This is a limited data size though because it is limited to the 32 or 64 bits for IPv4 and IPv6 addresses, but it is more then enough to send more then 4 billon unique instructions using only IPv4 addresses.</p>
+
+<p><img src="" alt="Figure 3 DNS Response Packet From Jacobson" /></p>
+
+<p>For example, the client could could send a DNS request for whatShouldIDo.mySite.com every hour. A response to the client of 182.231.10.4 for example could mean do nothing while 182.231.10.3 could mean encrypt everything in a ransomware attack. Every other IP address could have a unique command as well.</p>
+
+<h1 id="limitations-1">Limitations</h1>
+
+<p>1: Extremely small data rate, 32 or 64 bits at a time without restructuring the packet.</p>
+
+<p>2: DNS caching means every request must be unique or risk repeat of previous message.</p>
+
+<h1 id="detectable-characteristics--uses">Detectable Characteristics &amp; Uses</h1>
+
+<p>Because DNS tunneling is such a unusual use of the DNS protocol, it produces some very unique traffc characteristics that can be divided into payload anomalies and traffic anomalies. How pronounced these characteristics will be depends on the tunnelings use and the amount of traffic being sent over it.</p>
+
+<h2 id="characteristics">Characteristics</h2>
+
+<h2 id="traffic-anomalies">Traffic Anomalies</h2>
+
+<ul>
+  <li>Very Heavy Traffic</li>
+  <li>Repeating Patterns</li>
+  <li>Odd Request Patterns</li>
+</ul>
+
+<p><img src="" alt="Figure 3 Tunneling detection From Varonis" /></p>
+
+<h1 id="payload-anomalies">Payload Anomalies</h1>
+
+<ul>
+  <li>Large subdomain names</li>
+  <li>Full Packets</li>
+  <li>Odd Names</li>
+</ul>
+
+<p>The following paragraphs are supposed to corospond to the images. I have not yet figured out how to do that yet.</p>
+
+<p><img src="" alt="Figure 4 Exfiltration From Varonis" /> <img src="" alt="Figure 5 C2 From Varonis" /> <img src="" alt="Figure 6 IP-Over-DNS From Varonis" /></p>
+
+<p>Attackers can remove large amounts of information before being stopped and causes large amounts of traffic in a short amount of time.</p>
+
+<p>Advanced malware can use tunneling to receive commands and updates and even give backdoor access which creates a repeating pattern of “calling home.”</p>
+
+<p>In extreme cases, all internet traffic can be routed through the tunnel giving attacker complete remote access which can cause large amounts of sustained traffic</p>
+
+:ET
