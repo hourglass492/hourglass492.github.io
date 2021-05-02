@@ -3,16 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+#whoami
+Hello everyone, my name is Nicholas and I'm a 3rd year computer engineer at Iowa State university.
+My primary focus is in cyber security and I am planning on pursuing a masters degree in cyber security
+at Iowa State once I complete my under graduate degree. I plan on specialising in Red Teaming and
+penetration testing. 
