@@ -31,7 +31,7 @@ gdb program_to_debug
 ## During Debugging
 ### set flags
 
-set $eflags |= (1 << $flagNum) where zero flag is 6
+set $eflags \|= (1 << $flagNum) where zero flag is 6
 
 ### Stripped binaries
 
