@@ -24,14 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a blog for me to post my research and school projects. I'm a 3rd year computer engineer at iowa state focusing in security.
 #baseurl: /
 url: "https://nicholaskrabbenhoft.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  hourglass492
 
 # Build settings
 theme: minima
 destination: ./_site
 plugins:
   - jekyll-feed
+ 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,3 +52,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+include:
+  - "_assets"
