@@ -33,7 +33,7 @@ There are several more important things to know when working with the CAN Bus. F
 
 ### Packet Format
 
-![Figure 2. \[5\]](/assets/2020-12-06-Overview-of-the-CAN-bus/fig2.png)
+![Figure 2. \[5\]](/_assets/2020-12-06-Overview-of-the-CAN-bus/fig2.png)
 
 
 As this paper is focused on the vulnerabilities associated with cars and the CAN Protocol rather than the CAN protocol in and of itself, we will have to gloss over some of the finer points of its packet format and message system. We will focus on the CAN 2.0A and 2.0B packets as described in the BOSCH standard and how Arbitration ID’s and the Data Field work as those are the current implementations of the standard and those fields allow the majority of the exploits covered below. However included below is a brief description of each field in the 2.0A packet \[3] as shown above \[fig 2 \[5]]
