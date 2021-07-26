@@ -23,9 +23,7 @@ The CAN bus was originally developed in 1986 in order to allow vehicle manufactu
 
 ### The Physical implementation of the CAN bus
 
-![My helpful screenshot]({{ site.url }}/assests/fig1.png)
-_assets/2020-12-06-Overview-of-the-CAN-bus/
-
+![Figure 1. \[5\]](/_assets/2020-12-06-Overview-of-the-CAN-bus/fig1.png)
 
 
 Because research and attacks on the CAN bus may require a person to directly tap into it, we will briefly cover its physical implementation. The CAN bus transmits bits via differential voltage modulation on a pair of wrapped wires. This allows the protocol to filter out interference by discarding all bits which aren’t sent on both wires. This works by setting a middle voltage for both cables to be at rest at. When sending a dominant bit, one wire is raised X volts while the other wire is lowered by X volts, where X depends on the vehicle \[5] which is shown above with X being equal to 140 mV and the middle voltage being 240 mV  [fig 1 [5]]. 
@@ -51,7 +49,7 @@ As this paper is focused on the vulnerabilities associated with cars and the CAN
 1.  End of Frame: 7 bits, must be dominate
 
 	
-![Figure 3. \[3\]](/assets/2020-12-06-Overview-of-the-CAN-bus/fig3.png)
+![Figure 3. \[3\]](/_assets/2020-12-06-Overview-of-the-CAN-bus/fig3.png)
 
 
 ### Arbitration ID
@@ -61,7 +59,7 @@ The system works by assigning every node on the network their own arbitration ID
 To understand how the lower priority nodes realize they are about to cause a collision it is important to remember that the lower the priority the higher the Arbitration ID, all nodes are always reading the wire, and a one bit is transmitted by having no voltage difference between the two wires. If two nodes begin transmitting at the same time they will create a voltage difference on the wire. This will continue to happen until the node with the lower Arbitration ID transmits a 1. It will expect to read a 1 back from the wire, however it will read that there is still a 0 being sent which means another node with a lower Arbitration ID is transmitting and that it needs to stop transmitting in order to prevent a collision. This makes the arbitration ID the limittier on the number of nodes on the network.
 The final thing of note on the CAN bus is that it comes in the form of CAN 2.0A and CAN 2.0B. CAN 2.0A is basically the original CAN protocol and was shown above while the main difference between A and B is an extended address field \[3]. This is done by taking advantage of the reserve bit as demonstrated below [Fig 4 [3]].
 
-![Figure 4. \[3\]](/assets/2020-12-06-Overview-of-the-CAN-bus/fig4.png)
+![Figure 4. \[3\]](/_assets/2020-12-06-Overview-of-the-CAN-bus/fig4.png)
 
 
 
