@@ -23,8 +23,9 @@ The CAN bus was originally developed in 1986 in order to allow vehicle manufactu
 
 ### The Physical implementation of the CAN bus
 
+![My helpful screenshot]({{ site.url }}/assests/fig1.png)
+_assets/2020-12-06-Overview-of-the-CAN-bus/
 
-![Figure 1. 5](/assests/fig1.png){:class="img-responsive"}
 
 
 Because research and attacks on the CAN bus may require a person to directly tap into it, we will briefly cover its physical implementation. The CAN bus transmits bits via differential voltage modulation on a pair of wrapped wires. This allows the protocol to filter out interference by discarding all bits which aren’t sent on both wires. This works by setting a middle voltage for both cables to be at rest at. When sending a dominant bit, one wire is raised X volts while the other wire is lowered by X volts, where X depends on the vehicle \[5] which is shown above with X being equal to 140 mV and the middle voltage being 240 mV  [fig 1 [5]]. 
