@@ -106,5 +106,3 @@ GitHub: [hourglass492](https://github.com/hourglass492)
   - Web application Testing
   - Technical Writing
   - Open Source Intelligence Gathering
-
-v6
