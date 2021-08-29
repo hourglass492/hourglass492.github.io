@@ -53,7 +53,7 @@ GitHub: [hourglass492](https://github.com/hourglass492)
   - Worked as part of team to maintain and improve electric grid
 
 ## **Projects**
-### MIPS CPU Design & Implementation
+### [MIPS CPU Design & Implementation](https://nicholaskrabbenhoft.com/2020/12/01/CPR_E-381-CPU.html)
   Complete ground up implementation of a single cycle MIPS CPU in VHDL and rudimentary pipeling for multi-cycle CPU
   
   **Outcome:** In depth understanding of Computer Architecture and control flow
