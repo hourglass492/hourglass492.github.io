@@ -11,6 +11,7 @@ Email: Nicholas.P.Krabbenhoft@gmail.com
 Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
 
 ## **Focus**
+
   - Embedded and Low Level Systems
   - Exploit Development
 
@@ -18,11 +19,13 @@ Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
 ## **Education**
 
  ### Cyber Security Masters of Engineer
+ 
   Iowa State University
   Graduation: Spring 2022
   GPA: 3.835
   
  ### Computer Engineering Bachelors of Science
+ 
   Iowa State University
   Graduation: Spring 2021
   Minors: Cyber Security & Philosophy
@@ -112,3 +115,4 @@ Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
   - Technical Writing
   - Open Source Intelligence Gathering
 
+v2
