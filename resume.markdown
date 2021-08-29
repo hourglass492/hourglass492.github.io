@@ -5,8 +5,15 @@ permalink: /Resume/
 ---
 # **Nicholas** **Krabbenhoft**
 Penetration Tester & Computer Engineer
+
 Email: Nicholas.P.Krabbenhoft@gmail.com
+
 Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
+
+## **Focus**
+  - Embedded and Low Level Systems
+  - Exploit Development
+
 
 ## **Education**
 
@@ -91,6 +98,3 @@ Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
   - Technical Writing
   - Open Source Intelligence Gathering
 
-## **Focus**
-  - Embedded and Low Level Systems
-  - Exploit Development
