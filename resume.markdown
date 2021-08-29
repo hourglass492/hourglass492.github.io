@@ -18,29 +18,37 @@ GitHub: [hourglass492](https://github.com/hourglass492)
 ## **Education**
 ### Cyber Security Masters of Engineer
   Iowa State University
+  
   Graduation: Spring 2022
+  
   GPA: 3.835
   
 ### Computer Engineering Bachelors of Science
   Iowa State University
+  
   Graduation: Spring 2021
+  
   Minors: Cyber Security & Philosophy
+  
   GPA: 3.87
 
 ## **Work Experiences**
 ### Penetration Testing Internship
   RSM US LLP
+  
   Summer of 2020 & 2021
   - External & Internal Penetration Tests on Client Network as part of team
   - Designed phishing attacks against client networks
  
 ### Ethics in Cyber Security Teachers Assistant
   Iowa State University
+  
   Jan 2020 to Present
   - Support students by facilitating in depth reflections
 
 ### Electrical Engineering Intern
   Cedar Falls Utilities
+  
   Summer of 2019
   - Worked as part of team to maintain and improve electric grid
 
