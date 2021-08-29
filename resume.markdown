@@ -4,7 +4,7 @@ title: Resume
 permalink: /Resume/
 ---
 # **Nicholas** **Krabbenhoft**
-Penetration Tester & Computer Engineer
+**Penetration Tester & Computer Engineer**
 
 Email: [Nicholas.P.Krabbenhoft@gmail.com](Nicholas.P.Krabbenhoft@gmail.com)
 
