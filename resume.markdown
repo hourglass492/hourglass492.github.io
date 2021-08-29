@@ -6,8 +6,9 @@ permalink: /Resume/
 # **Nicholas** **Krabbenhoft**
 Penetration Tester & Computer Engineer
 
-Email: Nicholas.P.Krabbenhoft@gmail.com
-GitHub: https://github.com/hourglass492 
+Email: [Nicholas.P.Krabbenhoft@gmail.com](Nicholas.P.Krabbenhoft@gmail.com)
+
+GitHub: [hourglass492](https://github.com/hourglass492)
 
 ## **Focus**
   - Embedded and Low Level Systems
@@ -98,4 +99,4 @@ GitHub: https://github.com/hourglass492
   - Technical Writing
   - Open Source Intelligence Gathering
 
-v5
+v6
