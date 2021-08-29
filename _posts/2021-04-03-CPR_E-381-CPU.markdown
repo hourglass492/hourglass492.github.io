@@ -21,5 +21,7 @@ Fig 1. Digram of the CPU with multi cycle support
 
 ## Description
 This project was one of the hardest things that I have every done. Having never written any hardware description language before, I created created the ALU (Arithmetic logic unit), Register File, and connected it with the memory unit to create a primitive CPU. After this I partnered with 2 other students to fully implement the rest of the CPU from scratch all while working 100% remote due to the COVID-19 Pandemic. As part of the team, I took ownership of the overarching design and the majority of the debugging while I assisted my partners in actual implementation and writing assembly code to test the processor with. Once we had a fully working processor, we did time analysis on it to determine the clock cycle we could run it at and then added pipelining to increase the possible clock cycle.
+
 This was an incredible learning experience for me. It goes without saying that it thoroughly hammered in how reduced instruction set computer architecture (RISC) works and lower level programming. However, the biggest things I learned were time management as I would often have to spend 40 hours a week on this on top of my other 20 credits and how to work as a team with only virtual communication.
+
 For full source code, feel free to check out [https://github.com/hourglass492/cpre381](https://github.com/hourglass492/cpre381)
