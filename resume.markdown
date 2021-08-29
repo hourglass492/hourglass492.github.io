@@ -18,13 +18,13 @@ Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
 
 ## **Education**
 
- ### Cyber Security Masters of Engineer
+### Cyber Security Masters of Engineer
  
   Iowa State University
   Graduation: Spring 2022
   GPA: 3.835
   
- ### Computer Engineering Bachelors of Science
+### Computer Engineering Bachelors of Science
  
   Iowa State University
   Graduation: Spring 2021
@@ -39,7 +39,7 @@ Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
   - External & Internal Penetration Tests on Client Network as part of team
   - Designed phishing attacks against client networks
  
- ### Ethics in Cyber Security Teachers Assistant
+### Ethics in Cyber Security Teachers Assistant
   Iowa State University
   Jan 2020 to Present
   - Support students by facilitating in depth reflections
@@ -51,7 +51,7 @@ Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
 
 ## **Projects**
 
- ### MIPS CPU Design & Implementation
+### MIPS CPU Design & Implementation
  
   Complete ground up implementation of a single cycle MIPS CPU in VHDL and rudimentary pipeling for multi-cycle CPU
   
@@ -63,19 +63,19 @@ Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
   
   **Outcome:** Deep understanding of low level C and embedded systems
   
- ### Virtual Cyber Testbed
+  ### Virtual Cyber Testbed
  
   Developed full active directory network in virtual box & host vulnerable machines to practice attacks against.
   
   **Outcome:** Developed understanding of Corporate Windows Networks and increased understanding of vulnerable machines
   
- ### Binary Exploitation
+  ### Binary Exploitation
   
   Extensive study in common binary exploits and common mitigations as well as practice in developing exploits in personal lab and CTFs
   
   **Outcome:** Developed binary payloads and defeated common exploit mitigation
   
- ### Cyber Defense Competitions
+### Cyber Defense Competitions
   
   Twice yearly competition of improving extremely vulnerable network up to withstand professional penetration testers
   
@@ -83,19 +83,19 @@ Website: [NicholasKrabbenhoft.com](http://NicholasKrabbenhoft.com)
 
 ## **Involvement**
 
- ### President of the Information Assurance Student Group
+### President of the Information Assurance Student Group
  
   - Present on in depth Security Topics
   - Mentor new students
   - Organize weekly speakers
   - Create and give workshops to club members
 
- ### Cyber Security Chair
+### Cyber Security Chair
  
   - Review student petitions for class changes
   - Provided student perspective for creating new Cyber undergrad degree
 
- ### HKN Honors Society
+### HKN Honors Society
  
   - Help Run problem solving competition for students
   - Attend talks on electrical and computer research
