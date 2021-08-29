@@ -6,7 +6,7 @@ permalink: /Resume/
 # **Nicholas** **Krabbenhoft**
 **Penetration Tester & Computer Engineer**
 
-Email: [Nicholas.P.Krabbenhoft@gmail.com](Nicholas.P.Krabbenhoft@gmail.com)
+Email: Nicholas.P.Krabbenhoft@gmail.com
 
 GitHub: [hourglass492](https://github.com/hourglass492)
 
