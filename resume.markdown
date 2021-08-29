@@ -12,6 +12,7 @@ GitHub: [hourglass492](https://github.com/hourglass492)
 
 ## **Focus**
   - Embedded and Low Level Systems
+  - Network Penetration Testing
   - Exploit Development
 
 
