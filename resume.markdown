@@ -46,22 +46,27 @@ GitHub: https://github.com/hourglass492
 ## **Projects**
 ### MIPS CPU Design & Implementation
   Complete ground up implementation of a single cycle MIPS CPU in VHDL and rudimentary pipeling for multi-cycle CPU
+  
   **Outcome:** In depth understanding of Computer Architecture and control flow
 
 ### Embedded C Rumba Controller
   Coding Device Drivers and overarching control program utilizing embedded C and interrupt driven Code
+  
   **Outcome:** Deep understanding of low level C and embedded systems
   
-  ### Virtual Cyber Testbed
+### Virtual Cyber Testbed
   Developed full active directory network in virtual box & host vulnerable machines to practice attacks against.
+  
   **Outcome:** Developed understanding of Corporate Windows Networks and increased understanding of vulnerable machines
   
-  ### Binary Exploitation
+### Binary Exploitation
   Extensive study in common binary exploits and common mitigations as well as practice in developing exploits in personal lab and CTFs
+  
   **Outcome:** Developed binary payloads and defeated common exploit mitigation
   
 ### Cyber Defense Competitions
   Twice yearly competition of improving extremely vulnerable network up to withstand professional penetration testers
+  
   **Outcome:** Understanding of multiple OS networks and best ways to increase security
 
 ## **Involvement**
