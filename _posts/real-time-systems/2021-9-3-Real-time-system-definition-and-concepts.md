@@ -1,4 +1,13 @@
-### Real time system definition
+---
+layout: post
+title: Real Time System Definition
+status: done
+type: post
+published: true
+date: '21/9/3 17:00 '
+---
+
+### Real Time System Definition
   1. For most systems, getting the correct result is the most important thing, however in a real time system **the timleness** of the results is also very important.
   2. If the system misses the deadline the result may no longer matter
   3. Often these systems are done under bad/constrained enviroments. For example, low power, radiation, shacking/external mechanical force
