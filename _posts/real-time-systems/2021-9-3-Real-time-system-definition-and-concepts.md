@@ -7,6 +7,8 @@ published: true
 date: '21/9/3 17:00 '
 ---
 
+First set of notes for real time systems class at Iowa State
+
 ### Real Time System Definition
   1. For most systems, getting the correct result is the most important thing, however in a real time system **the timleness** of the results is also very important.
   2. If the system misses the deadline the result may no longer matter
@@ -16,29 +18,29 @@ date: '21/9/3 17:00 '
 **Best effort system**
 - this was what he had at the begining and it did not garantee that something would get done
 
-### types of real time systems
-- #### Hard real time systems
+### Types of real time systems
+ #### Hard real time systems
 	- Def: the consequences of missing the deadline is much higher then the reward of reaching the deadline
 	- avionics
 	- satalite
 	- command and control (military)
-- #### firm real time systems
+ #### firm real time systems
 	- penalty and reward for reaching the deadline are of the same order of magnitude 
 	- In this system deadline needs to be met but not catostrofic if it is not
 	- radar 
 	- manufacturing
-- #### Soft
+ #### Soft
 	- Penalty is order of magantude(s) less then the reward for reaching the deadline
 	- in this system not huge consiquences if the deadline is not met
 	- video conferencing
 	- multimedia
 	- networking
 	- Often the system can ignore or repeate the operation easly
-
-
+	
 There are also firm and soft deadlines. In a firm deadline there is no benifit to completing the task if the deadline has pasted. In a soft deadline there can be some reward even after the deadline has pased.
 
 
+## Example with a car
 A breakdown of theparts using an example of a car:
 - **Mission:** reach the destination safely
 - **Control system:** Car
