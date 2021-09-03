@@ -103,7 +103,7 @@ A breakdown of theparts using an example of a car:
 	 - Real time systems should have many backup plans in case tasks fail, this way safty critical systems do not fail into the worst posible outcome
 	 - For example, if a plane can not fly then it should land at airpoirt, if that's not possible, land in road, if not then water ect. It should continue to try and mitigate the damage
  
- ### Common Misconceptions with Real Time Systems
+### Common Misconceptions with Real Time Systems
  - Real time systems are not the same as fast computing
  - It is not low level asm programing focused on interupts and device drivers
  - they do not operate in static enviroments
