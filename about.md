@@ -1,18 +1,15 @@
 ---
-title: Colophon
-permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
-comments: false
+title: About
+permalink: /about/
 ---
+### #whoami
+Hello everyone, my name is Nicholas and I'm a 4th year computer engineer at Iowa State university.
+My primary focus is in cyber security and I am planning on pursuing a masters degree in cyber security at Iowa State once I complete my under graduate degree. I plan on specialising in Red Teaming and penetration testing. 
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+Feel free to contact me at my school email with any questions about my projects: nk3@iastate.edu
 
-If you have a question about him or else, just send a letter to him.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+### What is this
 
-**may u needs ✨**
-
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+I'm honestly not sure what my plan is for this blog. I'm planning to put some combination of my personal notes, school papers, and CTF write ups on this site. That way I'll be able to use as reference material as I work and hopefully others will be able to get some use out of it too. I've also found that writing about a subject really cements my understanding of it. So, I will probably write up random chunks of research that I do too. All of that being said, I probably don't know what I am talking about, so make sure to do your own research and don't blindly follow what I write because I can not guarantee any results. 
