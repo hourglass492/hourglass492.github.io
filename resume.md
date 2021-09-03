@@ -1,8 +1,12 @@
 ---
-layout: page
 title: Resume
 permalink: /Resume/
+layout: page
+comments: false
 ---
+
+
+
 # **Nicholas** **Krabbenhoft**
 **Penetration Tester & Computer Engineer**
 
