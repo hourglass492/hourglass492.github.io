@@ -14,10 +14,9 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Nicholas Krabbenhoft # author name
   bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
+   This is a blog for me to post my research and school projects. I'm a 4th year computer engineer at Iowa State focusing in security.
   username: hourglass492 # general username
-  github: github_username # github username
+  github: hourglass492  # github username
   email: nicholas.p.krabbenhoft@gmail.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
