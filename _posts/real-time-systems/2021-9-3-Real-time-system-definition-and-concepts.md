@@ -59,15 +59,17 @@ A breakdown of theparts using an example of a car:
 	- Task T_i is characterized by (c_i, p_i) 
 		- where c is computation time and p is the period that it reoccures on
 	- In this case the deadline would be defore the next task arrives
-	- 
-- #### Aperiodic 
+	
+	#### Aperiodic 
+	
 	- Event driven, We do not know how many/when we will need to do these
 	- Task T_i is charactered by (a_i, r_i, c_i,d_i)
 		- where a is the arrival time, r is the time it is ready, c is the computation time, and d is the deadline
 - #### Sporadic 
-		- In this case we  do not know when the next task will arrive/if it will arrive. However, we know that there will be some break between the current and next task. This gives a worst case of when a task will arrive
--Note: the c_i is the worst case senerio and it may be possible that the process will end before then
-- #### Task constrants
+	- In this case we  do not know when the next task will arrive/if it will arrive. However, we know that there will be some break between the current and next task. This gives a worst case of when a task will arrive
+	-Note: the c_i is the worst case senerio and it may be possible that the process will end before then
+
+ #### Task constrants
 	- ##### Deadlines
 	- ##### Resources (mutual exclusion)
 		- For example only one task can access a buffer at a time
