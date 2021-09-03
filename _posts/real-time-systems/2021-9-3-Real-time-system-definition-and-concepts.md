@@ -1,7 +1,7 @@
 ### Real time system definition
-- 1. For most systems, getting the correct result is the most important thing, however in a real time system **the timleness** of the results is also very important.
-- 2. If the system misses the deadline the result may no longer matter
-- 3. Often these systems are done under bad/constrained enviroments. For example, low power, radiation, shacking/external mechanical force
+  1. For most systems, getting the correct result is the most important thing, however in a real time system **the timleness** of the results is also very important.
+  2. If the system misses the deadline the result may no longer matter
+  3. Often these systems are done under bad/constrained enviroments. For example, low power, radiation, shacking/external mechanical force
 
 
 **Best effort system**
@@ -27,17 +27,13 @@
 	- Often the system can ignore or repeate the operation easly
 
 
-
-**Need to input the dyagram from class that shows theenviroment touching the sensors which then talk with the controlling system. THe controling system then talks with the actuators which do the things **
-
-
-There are also firm and soft deadlines. In a firm deadline there is no benifit to completing the task if the deadline has pasted. IN a soft deadline there can be some reward even after the deadline has pased.
+There are also firm and soft deadlines. In a firm deadline there is no benifit to completing the task if the deadline has pasted. In a soft deadline there can be some reward even after the deadline has pased.
 
 
 A breakdown of theparts using an example of a car:
 - **Mission:** reach the destination safely
 - **Control system:** Car
-- ** Controling sytem:** human or self driving computer
+- **Controling sytem:** human or self driving computer
 	- **sesors:** human senses or camera/lidar/etc
 - **Controls:** breaks, stearing, accelerator
 - Tasks:
@@ -70,17 +66,17 @@ A breakdown of theparts using an example of a car:
 	-Note: the c_i is the worst case senerio and it may be possible that the process will end before then
 
  #### Task constrants
-	- ##### Deadlines
-	- ##### Resources (mutual exclusion)
-		- For example only one task can access a buffer at a time
-		- Note: only one task can write to a buffer at a time and buffer can not be read at the same time
-	- ##### Presifence
-		- some task must happen first to allow other graphs to happen
-		- normally shown in directed precedence graphs
-		- denoted T1 -> T2 for task one must happen before task two
-	- ##### Fault tolerant Requirments
-		- redundancy is needed to increase reliabilty
-	- **Most tasks are defined by their combination of requirments, workloads, and payoffs**
+ - ##### Deadlines
+ - ##### Resources (mutual exclusion)
+   - For example only one task can access a buffer at a time
+   - Note: only one task can write to a buffer at a time and buffer can not be read at the same time
+ - ##### Presifence
+	- some task must happen first to allow other graphs to happen
+	- normally shown in directed precedence graphs
+	- denoted T1 -> T2 for task one must happen before task two
+  - ##### Fault tolerant Requirments
+	- redundancy is needed to increase reliabilty
+  - **Most tasks are defined by their combination of requirments, workloads, and payoffs**
 
 
 ### Predictibility
