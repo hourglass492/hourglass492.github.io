@@ -11,7 +11,6 @@ comments: false
 **Penetration Tester & Computer Engineer**
 
 Email: Nicholas.P.Krabbenhoft@gmail.com
-
 GitHub: [hourglass492](https://github.com/hourglass492)
 
 ## **Focus**
@@ -23,9 +22,7 @@ GitHub: [hourglass492](https://github.com/hourglass492)
 ## **Education**
 ### Cyber Security Masters of Engineer
   Iowa State University
-  
   Graduation: Spring 2022
-  
   GPA: 3.835
   
 ### Computer Engineering Bachelors of Science
