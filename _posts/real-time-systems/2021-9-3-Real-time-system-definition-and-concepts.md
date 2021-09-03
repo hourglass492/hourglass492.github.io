@@ -79,9 +79,9 @@ A breakdown of theparts using an example of a car:
 - In this case we  do not know when the next task will arrive/if it will arrive. However, we know that there will be some break between the current and next task. This gives a worst case of when a task will arrive
 -Note: the c_i is the worst case senerio and it may be possible that the process will end before then
 
- #### Task constrants
- - ##### Deadlines
- - ##### Resources (mutual exclusion)
+#### Task constrants
+ - **Deadlines**
+ - **Resources (mutual exclusion)**
    - For example only one task can access a buffer at a time
    - Note: only one task can write to a buffer at a time and buffer can not be read at the same time
 ##### Precedence
@@ -111,4 +111,4 @@ A breakdown of theparts using an example of a car:
 
 
 
-v2
+v3
