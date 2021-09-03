@@ -108,3 +108,7 @@ A breakdown of theparts using an example of a car:
  - It is not low level asm programing focused on interupts and device drivers
  - they do not operate in static enviroments
  - The problems in real time system have all been solved in other areas
+
+
+
+v1
