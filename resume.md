@@ -56,7 +56,7 @@ comments: false
   - Worked as part of team to maintain and improve electric grid
 
 ## **Projects**
-### [MIPS CPU Design & Implementation](https://nicholaskrabbenhoft.com/2020/12/01/CPR_E-381-CPU.html)
+### [MIPS CPU Design & Implementation](https://nicholaskrabbenhoft.com/CPR_E-381-CPU/)
   Complete ground up implementation of a single cycle MIPS CPU in VHDL and rudimentary pipeling for multi-cycle CPU
   
   **Outcome:** In depth understanding of Computer Architecture and control flow
