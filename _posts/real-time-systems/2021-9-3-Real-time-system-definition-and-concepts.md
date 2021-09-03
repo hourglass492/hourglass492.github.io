@@ -21,24 +21,24 @@ First set of notes for real time systems class at Iowa State
 ### Types of real time systems
 
 #### Hard real time systems
-	- Def: the consequences of missing the deadline is much higher then the reward of reaching the deadline
-	- avionics
-	- satalite
-	- command and control (military)
+- Def: the consequences of missing the deadline is much higher then the reward of reaching the deadline
+- avionics
+- satalite
+- command and control (military)
 	
 #### firm real time systems
-	- penalty and reward for reaching the deadline are of the same order of magnitude 
-	- In this system deadline needs to be met but not catostrofic if it is not
-	- radar 
-	- manufacturing
+- penalty and reward for reaching the deadline are of the same order of magnitude 
+- In this system deadline needs to be met but not catostrofic if it is not
+- radar 
+- manufacturing
 	
 #### Soft
-	- Penalty is order of magantude(s) less then the reward for reaching the deadline
-	- in this system not huge consiquences if the deadline is not met
-	- video conferencing
-	- multimedia
-	- networking
-	- Often the system can ignore or repeate the operation easly
+- Penalty is order of magantude(s) less then the reward for reaching the deadline
+- in this system not huge consiquences if the deadline is not met
+- video conferencing
+- multimedia
+- networking
+- Often the system can ignore or repeate the operation easly
 	
 There are also firm and soft deadlines. In a firm deadline there is no benifit to completing the task if the deadline has pasted. In a soft deadline there can be some reward even after the deadline has pased.
 
