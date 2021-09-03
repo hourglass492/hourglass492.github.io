@@ -84,13 +84,13 @@ A breakdown of theparts using an example of a car:
  - ##### Resources (mutual exclusion)
    - For example only one task can access a buffer at a time
    - Note: only one task can write to a buffer at a time and buffer can not be read at the same time
- - ##### Presifence
-	- some task must happen first to allow other graphs to happen
-	- normally shown in directed precedence graphs
-	- denoted T1 -> T2 for task one must happen before task two
-  - ##### Fault tolerant Requirments
-	- redundancy is needed to increase reliabilty
-  - **Most tasks are defined by their combination of requirments, workloads, and payoffs**
+##### Precedence
+- some task must happen first to allow other graphs to happen
+- normally shown in directed precedence graphs
+- denoted T1 -> T2 for task one must happen before task two
+##### Fault tolerant Requirments
+- redundancy is needed to increase reliabilty
+- **Most tasks are defined by their combination of requirments, workloads, and payoffs**
 
 
 ### Predictibility
