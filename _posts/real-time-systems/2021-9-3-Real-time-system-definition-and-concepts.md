@@ -19,17 +19,20 @@ First set of notes for real time systems class at Iowa State
 - this was what he had at the begining and it did not garantee that something would get done
 
 ### Types of real time systems
- #### Hard real time systems
+
+#### Hard real time systems
 	- Def: the consequences of missing the deadline is much higher then the reward of reaching the deadline
 	- avionics
 	- satalite
 	- command and control (military)
- #### firm real time systems
+	
+#### firm real time systems
 	- penalty and reward for reaching the deadline are of the same order of magnitude 
 	- In this system deadline needs to be met but not catostrofic if it is not
 	- radar 
 	- manufacturing
- #### Soft
+	
+#### Soft
 	- Penalty is order of magantude(s) less then the reward for reaching the deadline
 	- in this system not huge consiquences if the deadline is not met
 	- video conferencing
@@ -56,12 +59,12 @@ A breakdown of theparts using an example of a car:
 - **Reliability:** Fault tollerance is extreamly important. interferance in sensors or physical enviroment, power fluctuations, bad inputs should not cause a complete failure and if nessary it should fail in a safe and predictiable way
 
 
-### dynamic and static real time systems
+### Dynamic and static real time systems
 - in the static real time system we have a very good understanding of what will be happening in the enviroment and the workload
 - For dynamic, there is a lot of uncertainty in the environment and what the workload is going to be doing
 
 ### Workloads of Real Time Systems
-- #### Periodic
+#### Periodic
 	- Time based and we know that they will happen before time
 	- Task T_i is characterized by (c_i, p_i) 
 		- where c is computation time and p is the period that it reoccures on
@@ -72,7 +75,7 @@ A breakdown of theparts using an example of a car:
 	- Event driven, We do not know how many/when we will need to do these
 	- Task T_i is charactered by (a_i, r_i, c_i,d_i)
 		- where a is the arrival time, r is the time it is ready, c is the computation time, and d is the deadline
-- #### Sporadic 
+#### Sporadic 
 	- In this case we  do not know when the next task will arrive/if it will arrive. However, we know that there will be some break between the current and next task. This gives a worst case of when a task will arrive
 	-Note: the c_i is the worst case senerio and it may be possible that the process will end before then
 
