@@ -10,52 +10,52 @@ date: '21/9/21 17:00 '
 
 ### Real time systems issues
 - Resource management issues
-	  #### Scheduling
-		- Assign time slots (where and when to execute)
-		- Objective - have tasks meet deadlines
-		- 2 types: static and dynamic scheduling
-			- Static
-				- Uses tables 
-					- reduces run time problems
-					- not very good at adapting to problems
-					- Also you must store a table that can take valuable memory
-					- The table needs to the length of the least common multiple of all of the tasks (this can get quite long)
-						- This can get very large if the tasks are relatively prime
-				- Priority
-					- uses priority from offline setup
-					- More adaptable, however requires scheduling during run time
-					- This can also allow you to reclaim unused compute time
-			- Dynamic
-				- Planning based
-					- does scheduling online and checks if it works on line
-				- Best Effort (not great because no guarantee)
-					- uses other scheduling from OS class like FIFO and round robin
-			- Steps for scheduling
-				1. check if task is doable
-					- For static systems this can be done before runtime with a table
-					- 
-				2. construct schedule
-					- for static systems, we can make a table that shows when all tasks are being done and store it in the memory before run time
-			  ##### Preemptive scheduling
-				- You may want to pause a task low priority task for a higher priority task
-				- tends to allow more scalability (more tasks scheduled per compute time)
-				- Increases overhead in context switching so we want as few context switches as possible
-			  ##### Non preemptive scheduling
-				- Once task starts it will finish
-				- lower schedulability
-				- lower overhead due to no context switching
-				- used more in multiprocessor systems
-			  ##### Optimal Scheduling
-				- static scheduling
-					- optimal if for any set of tasks it always produces a feasible schedule when any other algorithm is able to
-				- Dynamic scheduling
-					- optimal if always produces a feasible schedule whenever a static algorithm with complete knowledge of all the possible tasks could do so
+#### Scheduling
+- Assign time slots (where and when to execute)
+- Objective - have tasks meet deadlines
+- 2 types: static and dynamic scheduling
+	- Static
+		- Uses tables 
+			- reduces run time problems
+			- not very good at adapting to problems
+			- Also you must store a table that can take valuable memory
+			- The table needs to the length of the least common multiple of all of the tasks (this can get quite long)
+				- This can get very large if the tasks are relatively prime
+		- Priority
+			- uses priority from offline setup
+			- More adaptable, however requires scheduling during run time
+			- This can also allow you to reclaim unused compute time
+	- Dynamic
+		- Planning based
+			- does scheduling online and checks if it works on line
+		- Best Effort (not great because no guarantee)
+			- uses other scheduling from OS class like FIFO and round robin
+	- Steps for scheduling
+		1. check if task is doable
+			- For static systems this can be done before runtime with a table
+			- 
+		2. construct schedule
+			- for static systems, we can make a table that shows when all tasks are being done and store it in the memory before run time
+##### Preemptive scheduling
+- You may want to pause a task low priority task for a higher priority task
+- tends to allow more scalability (more tasks scheduled per compute time)
+- Increases overhead in context switching so we want as few context switches as possible
+##### Non preemptive scheduling
+- Once task starts it will finish
+- lower schedulability
+- lower overhead due to no context switching
+- used more in multiprocessor systems
+##### Optimal Scheduling
+- static scheduling
+	- optimal if for any set of tasks it always produces a feasible schedule when any other algorithm is able to
+- Dynamic scheduling
+	- optimal if always produces a feasible schedule whenever a static algorithm with complete knowledge of all the possible tasks could do so
 
 
-	#### Priority driven preemptive scheduling
-	 - Rate monotonic system is priority based system
-	 - This system only deals with periodic tasks, no support for a-periodic tasks
-	 - The task with the shortest period has the highest priority
+#### Priority driven preemptive scheduling
+ - Rate monotonic system is priority based system
+ - This system only deals with periodic tasks, no support for a-periodic tasks
+ - The task with the shortest period has the highest priority
 
 
 ## What is needed in real time scheduling algorithm
