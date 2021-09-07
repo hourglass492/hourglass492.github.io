@@ -33,7 +33,6 @@ date: '21/9/21 17:00 '
 	- Steps for scheduling
 		1. check if task is doable
 			- For static systems this can be done before runtime with a table
-			- 
 		2. construct schedule
 			- for static systems, we can make a table that shows when all tasks are being done and store it in the memory before run time
 ##### Preemptive scheduling
