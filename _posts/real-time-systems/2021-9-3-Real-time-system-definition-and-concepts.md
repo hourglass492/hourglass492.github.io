@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Real Time System Definition
+title: Real Time System Definitions
 status: done
 type: post
 published: true
@@ -88,27 +88,23 @@ A breakdown of theparts using an example of a car:
 - some task must happen first to allow other graphs to happen
 - normally shown in directed precedence graphs
 - denoted T1 -> T2 for task one must happen before task two
-##### Fault tolerant Requirments
-- redundancy is needed to increase reliabilty
-- **Most tasks are defined by their combination of requirments, workloads, and payoffs**
+##### Fault tolerant Requirements
+- redundancy is needed to increase reliability
+- **Most tasks are defined by their combination of requirements, workloads, and payoffs**
 
 
-### Predictibility
-- It is incredbly important for real time systems to have predictiable outcomes
- - Static systems should be designed to give 100% garantees
- - However, when dynamic tasks are input, the garantee can not be given because there can be overload of tasks
- - Definition: as soon as a system accepts a task, it should garantee the task will be completed as long as assumptions made at acceptance hold
+### Predictability
+- It is incredibly important for real time systems to have predictable outcomes
+ - Static systems should be designed to give 100% guarantees
+ - However, when dynamic tasks are input, the guarantee can not be given because there can be overload of tasks
+ - Definition: as soon as a system accepts a task, it should guarantee the task will be completed as long as assumptions made at acceptance hold
 	 - These assumptions can included expected faults
- - **Graceful degradion of outcomes**
-	 - Real time systems should have many backup plans in case tasks fail, this way safty critical systems do not fail into the worst posible outcome
-	 - For example, if a plane can not fly then it should land at airpoirt, if that's not possible, land in road, if not then water ect. It should continue to try and mitigate the damage
+ - **Graceful degradation of outcomes**
+	 - Real time systems should have many backup plans in case tasks fail, this way safety critical systems do not fail into the worst possible outcome
+	 - For example, if a plane can not fly then it should land at airport, if that's not possible, land in road, if not then water ect. It should continue to try and mitigate the damage
  
 ### Common Misconceptions with Real Time Systems
  - Real time systems are not the same as fast computing
- - It is not low level asm programing focused on interupts and device drivers
- - they do not operate in static enviroments
+ - It is not low level asm programming focused on interrupts and device drivers
+ - they do not operate in static environments
  - The problems in real time system have all been solved in other areas
-
-
-
-v4
