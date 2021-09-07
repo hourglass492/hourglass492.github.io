@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: Real Time Systems
 title: Real Time System Definitions
 status: done
 type: post
