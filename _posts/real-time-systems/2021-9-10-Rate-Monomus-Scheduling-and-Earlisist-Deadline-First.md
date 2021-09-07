@@ -25,7 +25,7 @@ date: '21/9/10 17:00 '
 ## Earliest Deadline First EDF
  - This is has a test of:
 
-![Figure 2.](/_assets/real-time-systems/EDF-Test-image.png)
+![Figure 2.](/_postss/real-time-systems/EDF-Test-image.png)
 
  - This test is necessary and sufficient
  - Priority based scheduling
@@ -38,7 +38,7 @@ date: '21/9/10 17:00 '
  - Has the same test as EDF
  - This is has a test of:
 
-![Figure 2.](/_assets/real-time-systems/EDF-Test-image.png)
+![Figure 2.](/_posts/real-time-systems/EDF-Test-image.png)
 
  - Schedules based on laxity rather then deadline
 	 - Laxity is how much spare time before the process has to be completed
