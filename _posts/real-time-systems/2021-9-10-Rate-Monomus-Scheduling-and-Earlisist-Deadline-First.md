@@ -15,15 +15,18 @@ date: '21/9/10 17:00 '
  - For offline schedule making, construct offline schedule up to the LCM
  - Test we have is sufficient but not necessary, This means that if it succeeds then we don't have to worry
  - Test:
- ![[Pasted image 20210831094802.png]] 
+
+![Figure 1.](/_posts/real-time-systems/RMS-Test-Image.png)
+
  where U is comp time / period
- 
   - RMS is optimal for **fixed priority**, however EDF and LLF are better for dynamic priorities
 
 
 ## Earliest Deadline First EDF
  - This is has a test of:
-![[Pasted image 20210831095057.png]]
+
+![Figure 2.](/_posts/real-time-systems/EDF-Test-image.png)
+
  - This test is necessary and sufficient
  - Priority based scheduling
  - Task with the smallest/closest deadline has the highest Priority
@@ -34,7 +37,9 @@ date: '21/9/10 17:00 '
 ## Least Laxity First
  - Has the same test as EDF
  - This is has a test of:
-![[Pasted image 20210831095057.png]]
+
+![Figure 2.](/_posts/real-time-systems/EDF-Test-image.png)
+
  - Schedules based on laxity rather then deadline
 	 - Laxity is how much spare time before the process has to be completed
 	 - Takes into account deadline and how long it will take to complete
