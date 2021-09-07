@@ -10,7 +10,7 @@ date: '21/9/21 17:00 '
 
 ### Real time systems issues
 - Resource management issues
-	- #### Scheduling
+	  #### Scheduling
 		- Assign time slots (where and when to execute)
 		- Objective - have tasks meet deadlines
 		- 2 types: static and dynamic scheduling
@@ -36,16 +36,16 @@ date: '21/9/21 17:00 '
 					- 
 				2. construct schedule
 					- for static systems, we can make a table that shows when all tasks are being done and store it in the memory before run time
-			- ##### Preemptive scheduling
+			  ##### Preemptive scheduling
 				- You may want to pause a task low priority task for a higher priority task
 				- tends to allow more scalability (more tasks scheduled per compute time)
 				- Increases overhead in context switching so we want as few context switches as possible
-			- ##### Non preemptive scheduling
+			  ##### Non preemptive scheduling
 				- Once task starts it will finish
 				- lower schedulability
 				- lower overhead due to no context switching
 				- used more in multiprocessor systems
-			- ##### Optimal Scheduling
+			  ##### Optimal Scheduling
 				- static scheduling
 					- optimal if for any set of tasks it always produces a feasible schedule when any other algorithm is able to
 				- Dynamic scheduling
