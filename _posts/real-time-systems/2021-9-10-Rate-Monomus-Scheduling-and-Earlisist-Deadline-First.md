@@ -16,7 +16,7 @@ date: '21/9/10 17:00 '
  - Test we have is sufficient but not necessary, This means that if it succeeds then we don't have to worry
  - Test:
 
-![Figure 1.](/_posts/real-time-systems/RMS-Test-Image.png)
+![Figure 1.](./RMS-Test-Image.png)
 
  where U is comp time / period
   - RMS is optimal for **fixed priority**, however EDF and LLF are better for dynamic priorities
@@ -25,7 +25,7 @@ date: '21/9/10 17:00 '
 ## Earliest Deadline First EDF
  - This is has a test of:
 
-![Figure 2.](/_posts/real-time-systems/EDF-Test-image.png)
+![Figure 2.](./EDF-Test-image.png)
 
  - This test is necessary and sufficient
  - Priority based scheduling
@@ -38,7 +38,7 @@ date: '21/9/10 17:00 '
  - Has the same test as EDF
  - This is has a test of:
 
-![Figure 2.](/_posts/real-time-systems/EDF-Test-image.png)
+![Figure 2.](./EDF-Test-image.png)
 
  - Schedules based on laxity rather then deadline
 	 - Laxity is how much spare time before the process has to be completed
