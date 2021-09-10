@@ -1,6 +1,6 @@
 ---
 permalink: /qwerty/emby/
-destination: http://8.tcp.ngrok.io:15648
+destination: http://0.tcp.ngrok.io:19134
 type: redirect
 canonical: false
 ---
