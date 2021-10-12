@@ -96,9 +96,10 @@ comments: false
   - Organize weekly speakers
   - Create and give workshops to club members
 
-### Cyber Security Chair
+### Cyber Security Chair on Curriculum Committee
   - Review student petitions for class changes
   - Provided student perspective for creating new Cyber undergrad degree
+  - Speak with ABET in accreditation processes
 
 ### HKN Honors Society
   - Help Run problem solving competition for students
