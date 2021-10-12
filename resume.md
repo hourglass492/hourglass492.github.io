@@ -57,7 +57,7 @@ comments: false
 
 ## **Projects**
 ### [ISEAGE 2.0](https://nicholaskrabbenhoft.com/ISEAGE-2/)
- Senior design project were I refactored and add functionality to decade old internet virtualization framework.
+ Senior design project were I refactored and add functionality to decade old internet virtualization framework
 
  **Outcome:** Secure coding, code review, & low level C experience
   
