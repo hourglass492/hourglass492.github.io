@@ -56,6 +56,16 @@ comments: false
   - Worked as part of team to maintain and improve electric grid
 
 ## **Projects**
+### [ISEAGE 2.0](https://nicholaskrabbenhoft.com/ISEAGE-2/)
+ Senior design project were I refactored and add functionality to decade old internet virtualization framework.
+
+ **Outcome:** Secure coding, code review, & low level C experience
+  
+### Binary Exploitation
+  Extensive study in common binary exploits and common mitigations as well as practice in developing exploits in personal lab and CTFs
+  
+  **Outcome:** Developed binary payloads and defeated common exploit mitigation
+
 ### [MIPS CPU Design & Implementation](https://nicholaskrabbenhoft.com/CPR_E-381-CPU/)
   Complete ground up implementation of a single cycle MIPS CPU in VHDL and rudimentary pipeling for multi-cycle CPU
   
@@ -71,15 +81,13 @@ comments: false
   
   **Outcome:** Developed understanding of Corporate Windows Networks and increased understanding of vulnerable machines
   
-### Binary Exploitation
-  Extensive study in common binary exploits and common mitigations as well as practice in developing exploits in personal lab and CTFs
-  
-  **Outcome:** Developed binary payloads and defeated common exploit mitigation
+
   
 ### Cyber Defense Competitions
   Twice yearly competition of improving extremely vulnerable network up to withstand professional penetration testers
   
   **Outcome:** Understanding of multiple OS networks and best ways to increase security
+  
 
 ## **Involvement**
 ### President of the Information Assurance Student Group
