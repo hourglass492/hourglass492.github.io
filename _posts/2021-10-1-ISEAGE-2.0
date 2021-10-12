@@ -1,0 +1,42 @@
+---
+layout: post
+title: ISEAGE 2.0
+status: done
+type: post
+published: true
+comments: true
+---
+
+### ISEAGE 2.0
+
+  
+
+#### What ISEAGE is
+
+ISEAGE or the Internet-Scale Event and Attack Generation Environment is essentially a virtualized internet that allows people to learn cyber security and test new attacks in a safe environment. The environment is based around several virtual machines each running custom written C application that takes in layer 2 packets, manipulates them properly, and then sends them to the correct location.
+
+  
+
+  
+
+#### What the project involved
+
+ISEAGE 2.0 was my senior design project in the 21-22 school year. The goal of the project was to refactor and improve the current ISEAGE framework. The ISEAGE 1 framework does not support virtual IP's, IPv6, and the configuration and logging user experiences are poor to non existent. Ideally, we will be able to implement all of these features while refactoring to use modern C and improve modularity of the code base. This should allow more universities to use this framework and allow current users to scale up what they are doing with the framework.
+
+  
+
+  
+
+#### My role
+
+- This is my best guess of what my role will be, I had to put this post out describing what I did in the project before the project really started for a class assignment.
+
+On the project management side of the project, I took on the role of keeping our meetings focused. As I am sure most of the readers know, meetings have a tendency to get off topic or go down rabbit holes, particularly if it is a group of 20 something friends. My role during these meetings, beyond technical contributions, was to bring our focus back to the pressing tasks
+
+  
+
+From a technical standpoint, my specialty in the group was in low level and embedded C. This was particularly useful because I am comfortable manipulating the raw bytes of the network packets. This allowed me to focus on the packet onboarding and manipulation of the application.
+
+  
+
+I also have comparatively significant experience with binary exploitations so I took on the role of auditing the code for security flaws (buffer overflows, heap overflows, etc).
