@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Golden ticket Blog
-status: in progress
+status: done
 type: post
 published: false
 comments: true
