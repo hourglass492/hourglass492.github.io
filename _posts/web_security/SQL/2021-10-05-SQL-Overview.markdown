@@ -1,4 +1,4 @@
-Title: ---
+---
 layout: post
 title: SQL Overview
 status: in progress
