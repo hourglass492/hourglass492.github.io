@@ -1,6 +1,6 @@
 ---
 title: Resume
-permalink: /Resume/
+permalink: /resume/
 layout: page
 comments: false
 ---
