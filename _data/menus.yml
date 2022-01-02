@@ -2,8 +2,8 @@
   url: /
   external: false
 
-- title: Resume
-  url: /Resume/
+- title: resume
+  url: /resume/
   external: false
 
 
@@ -15,7 +15,7 @@
   url: /about/
   external: false # set true if you using external link, see below
 
-# Example:
-# - title: github
-#   url: https://github.com/piharpi/jekyll-klise
-#   external: true
+
+- title: github
+  url: https://github.com/hourglass492
+  external: true
