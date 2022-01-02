@@ -1,0 +1,21 @@
+---
+layout: post
+title: Snippets
+status: in progress
+type: post
+published: false
+comments: true
+---
+###### Snip 1 - Basic where 
+ ```SQL
+ SELECT * FROM products WHERE category = 'user_input' AND released = 1
+ ```
+###### Snip 2 - User Password check
+ ```SQL
+ SELECT * FROM users WHERE username = 'wiener' AND password = 'bluecheese'`
+ ```
+ 
+ ###### Snip 3 - union quire
+ ```SQL
+ SELECT a, b FROM table1 UNION SELECT c, d FROM table2
+ ```
