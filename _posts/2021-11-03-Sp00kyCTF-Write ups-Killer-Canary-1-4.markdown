@@ -10,6 +10,8 @@ date: 2022-01-02
 
 # Overview
 As Part of my Cyber security club, I helped put on a Halloween CTF. My contribution was a series of 4 escalating binary exploitation challenges taking the competitor through basic buffer overflows to disabling ASLR, defeating canaries, and either using smart brute forcing or defeating pseudo random numbers to break the last challenge. All of these challenges were meant to be completed without access to the binary and therefor the participants had to work through the binaries to get "debugging" information needed to break the challenge.
+
+Sorce code can be found at https://github.com/hourglass492/sp00ky-killer-canary-challanges
 ## Killer Canary 1
 Solution: `python3 -c "print('A' * 400)" | ./level1`
 
