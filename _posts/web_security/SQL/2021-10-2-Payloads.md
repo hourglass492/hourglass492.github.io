@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Title: SQL Payloads
+title: SQL Payloads
 status: in progress
 type: post
 published: true
 comments: true
-date: 2021-10-2
 ---
 
 ### Payloads
