@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Silver Ticket Blog
+title: Silver Ticket
 status: done
 type: post
 published: true
