@@ -1,6 +1,6 @@
 ---
 layout: post
-title: kerberoasting Blog
+title: kerberoasting
 status: done
 type: post
 published: true
