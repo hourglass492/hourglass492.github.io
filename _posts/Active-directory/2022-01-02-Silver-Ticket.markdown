@@ -3,7 +3,7 @@ layout: post
 title: Silver Ticket Blog
 status: done
 type: post
-published: false
+published: true
 comments: true
 date: 2022-01-02
 ---
