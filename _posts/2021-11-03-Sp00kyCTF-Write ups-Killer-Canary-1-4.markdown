@@ -3,7 +3,7 @@ layout: post
 title: Sp00kyCTF Write ups - Killer Canary 1-4
 status: done
 type: post
-published: false
+published: true
 comments: true
 date: 2022-01-02
 ---
