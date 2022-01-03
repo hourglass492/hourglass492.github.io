@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Golden ticket
+title: Golden Ticket
 status: done
 type: post
 published: true
