@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Snippets
-status: in progress
+status: Done
 type: post
-published: false
+published: true
 comments: true
 ---
 ###### Snip 1 - Basic where 
