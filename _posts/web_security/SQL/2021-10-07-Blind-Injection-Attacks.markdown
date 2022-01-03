@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Blind Injection Attacks
-status: in progress
+status: done
 type: post
-published: false
+published: true
 comments: true
 date: 2021-10-07
 ---
