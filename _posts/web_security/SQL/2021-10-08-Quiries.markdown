@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Quiries
-status: in progress
+status: Done
 type: post
-published: false
+published: true
 comments: true
-date: 2022-01-01
+date: 2021-10-08
 ---
 ### Quires
  
