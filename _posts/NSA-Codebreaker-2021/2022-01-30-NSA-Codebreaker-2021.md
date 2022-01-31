@@ -40,7 +40,7 @@ DISCLAIMER - The following is a FICTITIOUS story meant for providing realistic c
 Each competitor got slightly different files to insure that commands ran by one competitor couldn't simply be copy pasted by another competitor. As not all of the screen shots came from the same competitor, there will be slight discrepancies between specific information. This should have no affect on the underlying methiod to solve each challenge though.
 
 #### Task 1
-[Full Write up](task01/writeup.md)
+[Full Write up](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/task01)
 
 The challenge description is as follows:
 
@@ -57,7 +57,7 @@ The challenge description is as follows:
 Simply by matching the IP subnets with any IP addresses in the pcap file.
 
 #### Task 2
-[Full Write up](task02/writeup.md)
+[Full Write up](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/task02)
 
 
 The challenge description is as follows:
@@ -79,7 +79,7 @@ Using the subnet given, we are able to quickly see the time of the attack, and u
 
 
 #### Task 3
-[Full Write up](task03/writeup.md)
+[Full Write up](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/task03)
 
 
 The challenge description is as follows:
@@ -97,7 +97,7 @@ The emails given were examined by decoding the attached files. One of the emails
 
 
 #### Task 4
-[Full Write up](task04/writeup.md)
+[Full Write up](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/task04)
 
 
 The challenge description is as follows:
@@ -121,7 +121,7 @@ Overview of how challenge was completed:
 Using the malicious script found in Task 4, the functionality of the script had to be determined. It was found to dig for PuTTY and WinSCP session data in the Windows Registry. From the given NTUSER file, you had to determine which PuTTY and WinSCP keys were persisted in the registry. Using the list of previous session, we had to determine which key was not encrypted. Once the non-encrypted key was found we had to go back to the registry and find the Hostname that the malware sent to the LP and now had access to.
 
 #### Task 5
-[Full Write up](task05/writeup.md)
+[Full Write up](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/task05)
 
 The challenge description is as follows:
 
@@ -149,7 +149,7 @@ The challenge description is as follows:
 The tar image given is a complete docker image. Opening up the tar image and looking through the configuration json files gives the first flag. Then looking at the commands ran at startup gives a script that downloads the GitHub repo from the link and the name of the malicious file. At this point, unpacking all of the layer 2 tar files and using find gives the full path.
 
 #### Task 6
-[Full Write up](task06/writeup.md)
+[Full Write up](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/task06)
 
 ##### The challenge description is as follows:
 
