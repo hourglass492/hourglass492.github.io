@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /NSA-Codebreaker-2021/task4.md
+title: NSA-Codebreaker-2021 Task 4
+permalink: /NSA-Codebreaker-2021/task4
 ---
 .This is a write by a partner I had for this CTF: @seththegardner on github
 ### First Insights
