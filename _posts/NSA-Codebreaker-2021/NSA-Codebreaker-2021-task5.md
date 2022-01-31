@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /NSA-Codebreaker-2021/task5.md
+title: NSA-Codebreaker-2021 Task 5
+permalink: /NSA-Codebreaker-2021/task5
 ---
 
 ### First insights
