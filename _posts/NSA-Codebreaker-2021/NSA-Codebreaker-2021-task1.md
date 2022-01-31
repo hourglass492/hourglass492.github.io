@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /NSA-Codebreaker-2021/task1.md
+title: NSA-Codebreaker-2021 Task 1
+permalink: /NSA-Codebreaker-2021/task1
 ---
 
 Author: AwesomArcher8093 on Github
