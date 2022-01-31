@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /NSA-Codebreaker-2021/task2.md
+title: NSA-Codebreaker-2021 Task 2
+permalink: /NSA-Codebreaker-2021/task2
 ---
 
 Author: kscanlon3 on Github
