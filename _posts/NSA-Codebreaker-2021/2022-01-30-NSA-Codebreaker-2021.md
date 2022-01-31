@@ -10,20 +10,6 @@ date: 2022-01-30
 ---
 
 
-### Assignment Requirements
-
-- The report should be in PDF format and should be a maximum of 12 pages long and not less than 7 pages.
- - The report should include:
-   - A general overview of the simulated system
-   - A table of groups' names and corresponding to each name his/her contribution percentage to the project and a short description of his/her contribution
-   - Introduction about the attack performed and its different techniques
-   - An attack explanation with commands used, screenshots of outputs and results (step by step)
-   - Your contribution if you used one of the posted projects (change attack protocol, complicated scenario.. etc). This contribution should be clarified in your report and the final project selection submission)
-   - Explanation of how to detect and defend against this attack
-   - Conclusion of lessons learned from an attacker perspective and system defender (administrator) perspective
-   - Sources of your information (references)
-
-
 ### What is the NSA Codebreaker Challenge
 
 The NSA CodeBreaker challenge is a year competition between schools where "The NSA ... provides students with a hands-on opportunity to develop their reverse-engineering / low-level code analysis skills while working on a realistic problem set centered around the NSA's mission." The competition is divided into 2 parts, solo and team, each consisting of 6 and 4 challenges respectively. 
@@ -34,27 +20,6 @@ The Internet is home to many different cyber actors. To better prepare for and d
 
 DISCLAIMER - The following is a FICTITIOUS story meant for providing realistic context for the Codebreaker Challenge and is not tied in any way to actual events.
 
-
-
-
-
-### Individual Contributions
-  - Nicholas
-    - Complete Challenges: 1-6
-    - Final Documentation Writing
-    - Challenge write-ups: Task 5, 6
-  - Seth 
-    - Complete Challenges: 1-4
-    - Final Documentation Writing
-    - Challenge write-ups: Task 3, 4
-  - Nitin 
-    - Complete Challenges: 1-2
-    - Final Documentation Writing
-    - Challenge write-ups: Task 1
-  - Kevin
-    - Complete Challenges: 1-3
-    - Final Documentation Writing
-    - Challenge write-ups: Task 2
   
 ### Attacks Seen and Overview
   - Supply Chain
