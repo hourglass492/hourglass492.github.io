@@ -1,9 +1,9 @@
 ---
 layout: post
 title: NSA Codebreaker 2021
-status: in progress
+status: done
 type: post
-published: false
+published: true
 comments: true
 date: 2022-01-30
 
