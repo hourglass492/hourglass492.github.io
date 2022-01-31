@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: NSA-Codebreaker-2021 Task 6
 permalink: /NSA-Codebreaker-2021/task6
 ---
 
