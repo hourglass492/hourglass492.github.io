@@ -4,7 +4,7 @@ permalink: /ROP_emporium/2022-07-13-ROP-x64-Challenge-3
 title: ROP x64 Challenge 3
 status: in progress
 type: post
-published: true
+published: false
 comments: true
 date: 2022-07-13
 ---
