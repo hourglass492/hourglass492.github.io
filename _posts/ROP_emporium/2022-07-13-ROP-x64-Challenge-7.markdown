@@ -1,6 +1,5 @@
-
 ---
-layout: post
+layout: page
 permalink: /ROP_emporium/2022-07-13-ROP-x64-Challenge-7
 title: ROP x64 Challenge 7
 status: in progress
