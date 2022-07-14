@@ -3,7 +3,7 @@ layout: post
 title: ROP x64 Challenge 1
 status: in progress
 type: post
-published: false
+published: true
 comments: true
 date: 2022-07-13
 ---
