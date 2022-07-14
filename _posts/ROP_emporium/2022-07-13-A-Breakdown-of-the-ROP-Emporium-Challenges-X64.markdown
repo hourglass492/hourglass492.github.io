@@ -47,7 +47,7 @@ In order to solve (or mitigate at least) that problem, operating systems began t
 So the previous attack wouldn't work, because as soon as the program attempts to execute the shell code (in a writable location in memory) the program fails and exits, preventing the attack.
 
 
-[ROP x64 Challenge 1](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/ROP-x64-Challenge-1) demonstrates this type of attack without the need for shell code.
+[ROP x64 Challenge 1](https://nicholaskrabbenhoft.com/ROP_emporium/ROP-x64-Challenge-1) demonstrates this type of attack without the need for shell code.
 
 ### Getting to ROP
 
@@ -55,7 +55,7 @@ So, how do attackers keep exploiting these programs? After all, buffer overflows
 
 Since we control the stack, we can make it look however we want. Normally, a stack is a basically a list of functions to return to and their local variables. So we create a list of functions (the pre existing code) to return to which effectively allows us to reuse the code. In fact, it doesn't even have to be an intended function in the binary. Any set of instructions that ends in the return instruction works.
 
-[ROP x64 Challenge 2](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/ROP-x64-Challenge-2) shows how you can combine an unintended and intended set of instructions to win.
+[ROP x64 Challenge 2](https://nicholaskrabbenhoft.com/ROP_emporium/ROP-x64-Challenge-2) shows how you can combine an unintended and intended set of instructions to win.
 
 ### More techniques
 #### Using built in functions
@@ -63,25 +63,25 @@ Since we control the stack, we can make it look however we want. Normally, a sta
 However, to really expand what you can do it's nice to be able to call the intended functions in the binary. To do that, you have to understand how arguments are passed to functions. In x86_64, this is done in 4 registers (at least for the first 4 arguments). In order to properly call a function you need to control these registers.
 
 
-[ROP x64 Challenge 3](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/ROP-x64-Challenge-3) shows how to do this.
+[ROP x64 Challenge 3](https://nicholaskrabbenhoft.com/ROP_emporium/ROP-x64-Challenge-3) shows how to do this.
 
 
 #### Writing to memory
 
-Although you can't execute any code that you write into memory in the process, it can have a bunch of other uses. For example, a function may need a string to execute properly. One challenge that shows this is [ROP x64 Challenge 4](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/ROP-x64-Challenge-4)
+Although you can't execute any code that you write into memory in the process, it can have a bunch of other uses. For example, a function may need a string to execute properly. One challenge that shows this is [ROP x64 Challenge 4](https://nicholaskrabbenhoft.com/ROP_emporium/ROP-x64-Challenge-4)
 
 
 ### Challenges with ROP
 
 #### Write restrictions
-However, things aren't all roses. Attackers often don't have complete control over what they can overflow the binary with. [ROP x64 Challenge 5](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/ROP-x64-Challenge-5) shows how needed values can be created in memory even if they can't be written in the initial stack smash
+However, things aren't all roses. Attackers often don't have complete control over what they can overflow the binary with. [ROP x64 Challenge 5](https://nicholaskrabbenhoft.com/ROP_emporium/ROP-x64-Challenge-5) shows how needed values can be created in memory even if they can't be written in the initial stack smash
 
 #### Size problems
-ROP exploits require a certain amount of space and if you can't smash the stack with enough data it may be impossible to fully exploit a program. However, it's possible to store part of a ROP exploit in another space and then pivot to it which toften takes significantly less space as demonstrated in [ROP x64 Challenge 6](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/ROP-x64-Challenge-6).
+ROP exploits require a certain amount of space and if you can't smash the stack with enough data it may be impossible to fully exploit a program. However, it's possible to store part of a ROP exploit in another space and then pivot to it which toften takes significantly less space as demonstrated in [ROP x64 Challenge 6](https://nicholaskrabbenhoft.com/ROP_emporium/ROP-x64-Challenge-6).
 
 #### Bad gadgets
-Even with the ability to call any part of code that ends in a ret instruction, we may not have everything that we want to exploit a binary. Rather, some creative usage of instructions may be needed such as in [ROP x64 Challenge 7](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/ROP-x64-Challenge-7).
+Even with the ability to call any part of code that ends in a ret instruction, we may not have everything that we want to exploit a binary. Rather, some creative usage of instructions may be needed such as in [ROP x64 Challenge 7](https://nicholaskrabbenhoft.com/ROP_emporium/ROP-x64-Challenge-7).
 
 
 #### Small or hardened Binaries
-Finally, a binary may just not have enough gadgets to exploit because it is too small or you're just unlucky. However, there is one last hope known as uROPs or universal ROPs. These are found by looking at the boiler palte code added by gcc (or other compiler) and looking for gadgets in those functions. [ROP x64 Challenge 8](https://nicholaskrabbenhoft.com/NSA-Codebreaker-2021/ROP-x64-Challenge-8) is an example of that.
+Finally, a binary may just not have enough gadgets to exploit because it is too small or you're just unlucky. However, there is one last hope known as uROPs or universal ROPs. These are found by looking at the boiler palte code added by gcc (or other compiler) and looking for gadgets in those functions. [ROP x64 Challenge 8](https://nicholaskrabbenhoft.com/ROP_emporium/ROP-x64-Challenge-8) is an example of that.
