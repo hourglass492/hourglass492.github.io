@@ -7,6 +7,9 @@ published: true
 comments: true
 date: 2022-07-13
 ---
+Note: I am having trouble getting the links to work for the indivdual write ups. They are avaliable here [https://github.com/hourglass492/hourglass492.github.io/tree/master/_posts/ROP_emporium](https://github.com/hourglass492/hourglass492.github.io/tree/master/_posts/ROP_emporium) in there broken down form and [https://github.com/hourglass492/ROP-Emporium-x64](https://github.com/hourglass492/ROP-Emporium-x64) in an overaching form with in the git repo I used for the project.
+
+
 # General overview 
 
 The rop emporium is a series of challenges designed to help teach about the concept of return oriented programing (ROP) which is an exploit technique that uses already existing chunks of machine code in an binary as part of the executable. This is an effective way of getting around write xor execut w^x stack protection.
