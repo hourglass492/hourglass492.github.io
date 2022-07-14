@@ -23,13 +23,13 @@ comments: false
 ## **Education**
 ### Cyber Security Masters of Engineer
   Iowa State University
-  Graduation: Spring 2022
+  Graduation: Spring 2023
   GPA: 3.835
   
 ### Computer Engineering Bachelors of Science
   Iowa State University
   
-  Graduation: Spring 2021
+  Graduation: Spring 2022
   
   Minors: Cyber Security & Philosophy
   
