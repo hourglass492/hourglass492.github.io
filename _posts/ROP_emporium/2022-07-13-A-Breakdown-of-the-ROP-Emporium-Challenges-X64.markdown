@@ -1,9 +1,6 @@
 ---
 layout: post
 title: A Breakdown of the ROP Emporium Challenges X64
-status: in progress
-type: post
-published: true
 comments: true
 date: 2022-07-13
 ---
