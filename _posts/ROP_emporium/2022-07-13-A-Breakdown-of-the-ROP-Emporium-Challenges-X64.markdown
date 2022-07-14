@@ -4,7 +4,7 @@ title: A Breakdown of the ROP Emporium Challenges X64
 comments: true
 date: 2022-07-13
 ---
-Note: I am having trouble getting the links to work for the indivdual write ups. They are avaliable here [https://github.com/hourglass492/hourglass492.github.io/tree/master/_posts/ROP_emporium](https://github.com/hourglass492/hourglass492.github.io/tree/master/_posts/ROP_emporium) in there broken down form and [https://github.com/hourglass492/ROP-Emporium-x64](https://github.com/hourglass492/ROP-Emporium-x64) in an overaching form with in the git repo I used for the project.
+Note: Github repo and writeup avaliable here [https://github.com/hourglass492/hourglass492.github.io/tree/master/_posts/ROP_emporium](https://github.com/hourglass492/hourglass492.github.io/tree/master/_posts/ROP_emporium) in there broken down form and [https://github.com/hourglass492/ROP-Emporium-x64](https://github.com/hourglass492/ROP-Emporium-x64) in an overaching form with in the git repo I used for the project.
 
 
 # General overview 
