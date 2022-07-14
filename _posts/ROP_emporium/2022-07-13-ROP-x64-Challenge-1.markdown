@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: /ROP_emporium/ROP-x64-Challenge-1
 title: ROP x64 Challenge 1
 comments: true
