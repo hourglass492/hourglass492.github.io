@@ -1,10 +1,10 @@
 ---
 title: ROP x64 Challenge 8
-layout: post
-permalink: /ROP_emporium/2022-07-13-ROP-x64-Challenge-8
-status: in progress
-type: post
-published: false
+layout: page
+permalink: /ROP_emporium/ROP-x64-Challenge-8
+status: page
+type: page
+published: true
 comments: true
 date: 2022-07-13
 ---
