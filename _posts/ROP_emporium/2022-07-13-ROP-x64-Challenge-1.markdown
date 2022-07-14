@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /ROP_emporium/2022-07-13-ROP-x64-Challenge-1
 title: ROP x64 Challenge 1
 status: in progress
 type: post
