@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /ROP_emporium/2022-07-13-ROP-x64-Challenge-1
+permalink: /ROP_emporium/ROP-x64-Challenge-1
 title: ROP x64 Challenge 1
 comments: true
 date: 2022-07-13
