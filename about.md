@@ -3,13 +3,28 @@ layout: page
 title: About
 permalink: /about/
 ---
-### #Whoami
-Hello everyone, my name is Nicholas and I'm a 4th year computer engineer at Iowa State university.
-My primary focus is in cyber security and I am planning on pursuing a masters degree in cyber security at Iowa State once I complete my under graduate degree. I plan on specialising in Red Teaming and penetration testing. 
+### About Me
 
-Feel free to contact me at my school email with any questions about my projects: nk3@iastate.edu
+I am a security researcher and developer focused on offensive security based in the US
+with a focus on Reverse Engineering, Vulnerability research, and C development.
+I graduated with my masters degree in cyber security engineering and bachelor’s
+of computer engineering in 2023. I am a fan of understanding how computer systems 
+work on a low level and how these systems can be coxed into behnaving in unintended
+and interesting ways. 
 
 
 ### What is this
 
-I'm honestly not sure what my plan is for this blog. I'm planning to put some combination of my personal notes, school papers, and CTF write ups on this site. That way I'll be able to use as reference material as I work and hopefully others will be able to get some use out of it too. I've also found that writing about a subject really cements my understanding of it. So, I will probably write up random chunks of research that I do too. All of that being said, I probably don't know what I am talking about, so make sure to do your own research and don't blindly follow what I write because I can not guarantee any results. 
+Over the years I've benefited massively from other researchers and developers sharing
+their experiences and techniques freely. This is my attempt to collect my thoughts for
+myself and share what I can to others to pay it forward. That said no promises are being
+made about the frequency of posts, consistency of topic, or accuracy. I will do my 
+best to distinguish between what I have done, what I think is the case, and what others
+have claimed (with citations to their work).
+
+Some areas of interest that should show up are:
+ - C development
+ - Developing with restricted access to tools
+ - Vulnerability Research
+ - Reverse Engineering
+
